@@ -11,6 +11,8 @@ All of the examples in this repo provide instructions for being run normally, an
 
 If starting from scratch and your host machine is Ubuntu 22.04, you can use accomplish all of the above with the convenience scripts `scripts/docker/install_docker_ubuntu22.sh` and `scripts/docker/install_nvidia_container_toolkit.sh`.
 
+If your host machine is Ubuntu 25.04, you can use accomplish all of the above with the convenience scripts `install_docker_ubuntu25_rootless.sh` and `install_nvidia_container_toolkit_ubuntu25.sh`
+
 Build the Docker image and start the container with the following command:
 ```bash
 docker compose -f scripts/docker/compose.yml up --build
